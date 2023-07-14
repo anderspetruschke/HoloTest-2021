@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 031594597fdc0724abb61e57e578d4ae, type: 3}
+  m_Name: HoloDeviceConfig
+  m_EditorClassIdentifier: 
+  DeviceManagerPrefab: {fileID: 754364952333322744, guid: 69e2b31deae289945b0d82ebb737e60f, type: 3}
+  TargetDeviceType: 1
+  DeviceIP: localhost
+  DevicePort: 32919
+  EnableTracking: 1
+  UseDeviceIPAsTrackingSource: 1
+  TrackingSourceIP: localhost
+  EnableDeviceRender: 1
+  RemoteDisplay: 0
+  AutoAdjustResolution: 1
+  StartingControlMode: -1
+  StartingControlModeSpeed: 1
+  ControlModeButton: 1
+  AddAudioListeners: 1
+  SmoothTrackedPoints: 1
+  ShowCalibrationScreen: 1
+  ShowUserLasers: 1
+  DebugSurfaceView: -1
+  EnableDebugUserController: 1
+  DebugUserContollerTarget: 0
+  UserContollerSimulateDevice: 1
+  DebugUserViewEmulationPosition: 0
+  DebugUserViewHeight: 1.6
+  AlwaysRender: 1
+  OnlyRenderUser1: 0
+  HDRCompensation: 0
+  RenderDebugWindow: 0
+  ProjectorMode: 1
+  Invert3D: 1
+  MaxUsers: 2
